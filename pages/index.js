@@ -1,12 +1,11 @@
-import Link from 'next/link';
 
 const PaginaPrincipal = () => {
   return (
     <div>
        
-      <h2><Link href="https://roaring-cranachan-106cb4.netlify.app">
+      <h2><li><a href="https://roaring-cranachan-106cb4.netlify.app">
         Ir a App
-      </Link></h2>
+      </a></li></h2>
     </div>
   );
 };
